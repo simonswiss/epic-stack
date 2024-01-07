@@ -84,13 +84,9 @@ export default function Index() {
 									<TooltipTrigger asChild>
 										<a
 											href={logo.href}
-											className="group grid size-20 place-items-center rounded-2xl bg-violet-600/10 p-4 transition hover:-rotate-6 hover:bg-violet-600/15 sm:size-24 dark:bg-violet-400/40 dark:hover:bg-violet-400/50"
+											className="grid size-20 place-items-center rounded-2xl bg-violet-600/10 p-4 transition hover:-rotate-6 hover:bg-violet-600/15 sm:size-24 dark:bg-violet-200 dark:hover:bg-violet-100"
 										>
-											<img
-												src={logo.src}
-												alt=""
-												className="w-16 dark:grayscale group-hover:dark:grayscale-0"
-											/>
+											<img src={logo.src} alt="" className="w-16" />
 										</a>
 									</TooltipTrigger>
 									<TooltipContent>{logo.alt}</TooltipContent>
